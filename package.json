@@ -2,6 +2,7 @@
   "name": "mobile-app-template",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://omerburaktaskin.github.io/mindstockwebsite.com/",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -9,7 +10,9 @@
     "build": "astro build",
     "build:prod": "NODE_ENV=production astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -19,6 +22,7 @@
     "astro": "^4.16.7",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.13",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
