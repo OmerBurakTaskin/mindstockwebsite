@@ -211,8 +211,9 @@ const templateConfig: TemplateConfig = {
         "Effortlessly organize your thoughts, explore new ideas, and enhance your learning experience with intelligent, interactive mind maps.",
       screenshots: [
         "/screenshots/quiz.png",
-        "/screenshots/create_workspace.png",
         "/screenshots/suggestion_card.png",
+        "/screenshots/create_workspace.png",
+
       ],
       //rewards: ["App of the year \n 1st", "Product of the day"],
       //usersDescription: "100+ people already using the app",
