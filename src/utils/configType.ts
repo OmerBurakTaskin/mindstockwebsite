@@ -25,13 +25,7 @@ export type TemplateConfig = {
         };
         content: string;
     };
-    cookiesPolicy: {
-        seo: {
-            title: string;
-            description: string;
-        };
-        content: string;
-    };
+   
     footer: {
         links: {
             title: string;
